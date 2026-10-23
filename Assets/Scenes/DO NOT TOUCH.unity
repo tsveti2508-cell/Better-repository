@@ -6369,197 +6369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Keycardreader
   keycardID: LabKeycard_01
---- !u!1001 &1481029899
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.627
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.264
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.069
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      propertyPath: m_Name
-      value: Keycard scanner
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1481029906}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1481029905}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1481029907}
-  m_SourcePrefab: {fileID: 100100000, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
---- !u!1 &1481029900 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 118bcba3e866e8f45981a90963066adc, type: 3}
-  m_PrefabInstance: {fileID: 1481029899}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1481029905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481029900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 232e135affc31e347a6af69d08af3ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KeycardPanel
-  requiredKeycardID: LabKeycard_01
-  oneTimeUse: 1
-  statusLight: {fileID: 0}
-  idleColor: {r: 1, g: 0, b: 0, a: 1}
-  successColor: {r: 0, g: 1, b: 0, a: 1}
-  onCorrectCardInserted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1986243389}
-        m_TargetAssemblyTypeName: DoorController, Assembly-CSharp
-        m_MethodName: UnlockDoor
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onWrongCardInserted:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1481029906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481029900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8f77473496f30344be641488101267c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NonSnappingSocket
-  m_InteractionManager: {fileID: 0}
-  m_InteractionLayers:
-    m_Bits: 4294967295
-  m_Handedness: 0
-  m_AttachTransform: {fileID: 0}
-  m_KeepSelectedTargetValid: 1
-  m_DisableVisualsWhenBlockedInGroup: 1
-  m_StartingSelectedInteractable: {fileID: 0}
-  m_StartingTargetFilter: {fileID: 0}
-  m_AutoFindParentInteractableInHierarchy: 0
-  m_ParentInteractableObject: {fileID: 0}
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
-  m_ShowInteractableHoverMeshes: 1
-  m_InteractableHoverMeshMaterial: {fileID: 0}
-  m_InteractableCantHoverMeshMaterial: {fileID: 0}
-  m_SocketActive: 1
-  m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 1
-  m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.1
-  m_SocketScaleMode: 0
-  m_FixedScale: {x: 1, y: 1, z: 1}
-  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
---- !u!65 &1481029907
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481029900}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0066592144, y: 0.020027008, z: 0.018188596}
-  m_Center: {x: -0.0016378787, y: 0.0000020049515, z: -0.0008222461}
 --- !u!1001 &1542163971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7189,6 +6998,201 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1631242427}
   m_SourcePrefab: {fileID: 100100000, guid: 41de985e0f816b047986060017304099, type: 3}
+--- !u!1001 &1746979524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.267
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.316
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.063
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 146bb5df3a1043e4f866d83f0c35e39f, type: 2}
+    - target: {fileID: 919132149155446097, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      propertyPath: m_Name
+      value: Keycard Scanner 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1746979528}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1746979527}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1746979532}
+  m_SourcePrefab: {fileID: 100100000, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+--- !u!1 &1746979525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f4271b4d1fec80045afd0b1d84719cdb, type: 3}
+  m_PrefabInstance: {fileID: 1746979524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1746979527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746979525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232e135affc31e347a6af69d08af3ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeycardPanel
+  requiredKeycardID: LabKeycard_01
+  oneTimeUse: 1
+  statusLight: {fileID: 0}
+  idleColor: {r: 1, g: 0, b: 0, a: 1}
+  successColor: {r: 0, g: 1, b: 0, a: 1}
+  onCorrectCardInserted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1986243389}
+        m_TargetAssemblyTypeName: DoorController, Assembly-CSharp
+        m_MethodName: UnlockDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onWrongCardInserted:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1746979528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746979525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f77473496f30344be641488101267c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NonSnappingSocket
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!65 &1746979532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746979525}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016223293, y: 0.020000003, z: 0.02}
+  m_Center: {x: -0.000076163575, y: 0, z: 0}
 --- !u!1001 &1779446418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8599,7 +8603,7 @@ SceneRoots:
   - {fileID: 258930949}
   - {fileID: 1986243388}
   - {fileID: 952958020}
-  - {fileID: 1481029899}
   - {fileID: 1433011446}
   - {fileID: 1560685724}
   - {fileID: 1814807917}
+  - {fileID: 1746979524}

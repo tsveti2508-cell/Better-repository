@@ -4,24 +4,46 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 public class Socketcontroll : MonoBehaviour
 {
+    [Header("Socket Settings")]
     public XRSocketInteractor socket;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
-        socket = GetComponent<XRSocketInteractor>();
+        if (socket == null)
+        {
+            socket = GetComponent<XRSocketInteractor>();
+        }
 
+        if (socket == null)
+        {
+            Debug.LogError("Socketcontroll: No XRSocketInteractor found!");
+        }
     }
 
     public void SocketCheck()
     {
-        GameObject item = socket.selectTarget.gameObject;
-        if (item.CompareTag("Yellow"));
+        if (socket == null)
         {
-            Debug.Log "Right Harddrive has been put in"
-        
+            Debug.LogWarning("Socketcontroll: Socket is not assigned.");
+            return;
+        }
+
+        if (socket.interactablesSelected.Count == 0)
+        {
+            Debug.Log("No hard drive is selected in the socket.");
+            return;
+        }
+
+        var selectedInteractable = socket.interactablesSelected[0];
+        GameObject item = selectedInteractable.transform.gameObject;
+
+        if (item.CompareTag("Yellow"))
+        {
+            Debug.Log("Right Harddrive has been put in");
+        }
+        else
+        {
+            Debug.Log("Wrong hard drive: " + item.name);
         }
     }
-
 }
