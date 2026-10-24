@@ -20,6 +20,18 @@ PrefabInstance:
       propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7389251371985129518, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ea3b14b69c7f664eb63d720d6ab83c1, type: 2}
+    - target: {fileID: 7389251371985129518, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9f1bc8dd6a40d05459217b7dd2592eb9, type: 2}
+    - target: {fileID: 7389251371985129518, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ea3b14b69c7f664eb63d720d6ab83c1, type: 2}
     - target: {fileID: 8557059355980213057, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
       propertyPath: m_LocalScale.x
       value: 13.74

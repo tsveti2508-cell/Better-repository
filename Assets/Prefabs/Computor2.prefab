@@ -64,6 +64,42 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9f1bc8dd6a40d05459217b7dd2592eb9, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ea3b14b69c7f664eb63d720d6ab83c1, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 17e7f1b845b5863499febba97fd9626f, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c56db042f0ffc5a4a9bf009f1705518e, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 17e7f1b845b5863499febba97fd9626f, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e312e6addd3a6024b83e597781418031, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[6]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cc132df8305f1645b06ac9e0f02e2c9, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[7]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c4d4670f0b9a133439c0b350242433c5, type: 2}
+    - target: {fileID: -1806680513116206669, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
+      propertyPath: 'm_Materials.Array.data[8]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e296f7560a69a3c419fe374db4c385b6, type: 2}
     - target: {fileID: 919132149155446097, guid: ed90d1dab72d8bf49b1771b845893b8a, type: 3}
       propertyPath: m_Name
       value: Computor2
