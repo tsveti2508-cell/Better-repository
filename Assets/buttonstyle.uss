@@ -1,0 +1,30 @@
+:root {
+}
+
+.playbuttonstyle {
+    background-image: url("project://database/Assets/UI%20Images/Play%20Button.png?fileID=2800000&guid=fff16380a2b45984b86b24354a7c48dc&type=3#Play Button");
+    background-size: 75% 75%;
+    background-position-x: center;
+    -unity-background-scale-mode: scale-to-fit;
+    flex-direction: row;
+    align-content: auto;
+}
+
+.quitbuttonstyle {
+    background-image: url("project://database/Assets/UI%20Images/Quit%20Button.png?fileID=2800000&guid=a9aab3b6a6484d1449df9ed67d9254e8&type=3#Quit Button");
+}
+
+.restartbuttonstyle {
+    background-image: url("project://database/Assets/UI%20Images/Restart%20Button.png?fileID=2800000&guid=a5f595eb0ce33194b902ca3a7e846705&type=3#Restart Button");
+    align-items: auto;
+    align-content: auto;
+    flex-direction: row;
+}
+
+.pausebuttonstyle {
+    background-image: url("project://database/Assets/UI%20Images/Pause%20Button.png?fileID=2800000&guid=68b800f3f9f08a34d8147b6fc6481ceb&type=3#Pause Button");
+}
+
+.resumebuttonstyle {
+    background-image: url("project://database/Assets/UI%20Images/Resume%20Button.png?fileID=2800000&guid=2277475c141a14c41a41cc0657f7ecf5&type=3#Resume Button");
+}
