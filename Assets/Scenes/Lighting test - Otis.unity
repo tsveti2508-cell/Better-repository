@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 0222cda2e7791b14abf8140338154899, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 73ba4961aa7698d4db31418d043dcab1, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: af67e1147689eac45a8d562a223a256e, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -7688,6 +7688,14 @@ PrefabInstance:
     - target: {fileID: 2797454430028779193, guid: 16140ed05c9e527408fa4b771c27aeb3, type: 3}
       propertyPath: m_Name
       value: Microscope
+      objectReference: {fileID: 0}
+    - target: {fileID: 2797454430028779193, guid: 16140ed05c9e527408fa4b771c27aeb3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152988127254480205, guid: 16140ed05c9e527408fa4b771c27aeb3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
