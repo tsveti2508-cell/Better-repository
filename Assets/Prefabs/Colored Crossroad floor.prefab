@@ -67,14 +67,18 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e32a6ae54b52d4649831430328fc5ac5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 2f8aa31d5f6010e438842382731dacab, type: 2}
+      objectReference: {fileID: 2100000, guid: 2f76f4fa267703f46a92db18699b63fe, type: 2}
     - target: {fileID: -7511558181221131132, guid: e32a6ae54b52d4649831430328fc5ac5, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: eb7b43ec1c8066d4dbe9dc07dc2985e9, type: 2}
+      objectReference: {fileID: 2100000, guid: fef619a20e9e0ad44a0300253560277b, type: 2}
     - target: {fileID: 919132149155446097, guid: e32a6ae54b52d4649831430328fc5ac5, type: 3}
       propertyPath: m_Name
       value: Colored Crossroad floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e32a6ae54b52d4649831430328fc5ac5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
