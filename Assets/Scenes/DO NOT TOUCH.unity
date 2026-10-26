@@ -2911,6 +2911,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3448838563125736040, guid: 7ca36a180b0e2b34fb87a1306ca51c55, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8444021235898990834, guid: 7ca36a180b0e2b34fb87a1306ca51c55, type: 3}
       propertyPath: m_Name
       value: Beker
