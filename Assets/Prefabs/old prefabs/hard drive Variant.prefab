@@ -92,6 +92,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hard drive Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9046351254159258107, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5830070529827703230, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
     m_RemovedGameObjects: []
