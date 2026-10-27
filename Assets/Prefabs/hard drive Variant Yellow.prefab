@@ -32,6 +32,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 6ea3b14b69c7f664eb63d720d6ab83c1, type: 2}
+    - target: {fileID: 7389251371985129518, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 933c31fac035f3245afbf8da067bb615, type: 2}
     - target: {fileID: 8557059355980213057, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
       propertyPath: m_LocalScale.x
       value: 13.74
@@ -91,6 +95,10 @@ PrefabInstance:
     - target: {fileID: 9046351254159258107, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
       propertyPath: m_Name
       value: hard drive Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046351254159258107, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
+      propertyPath: m_TagString
+      value: Yellow
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5830070529827703230, guid: 63c25d0e1477df0438b8f91d7a50c0b4, type: 3}
