@@ -1650,6 +1650,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1931998209}
     m_Modifications:
+    - target: {fileID: 6057981640530532198, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
+      propertyPath: m_Name
+      value: Keycard ID2 Variant (1) Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 6870688286128033244, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.9820004
@@ -1689,10 +1693,6 @@ PrefabInstance:
     - target: {fileID: 6870688286128033244, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057981640530532198, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
-      propertyPath: m_Name
-      value: Keycard ID2 Variant (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7789179758245608838, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
       propertyPath: m_Enabled
@@ -6082,6 +6082,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1931998209}
     m_Modifications:
+    - target: {fileID: 6057981640530532198, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
+      propertyPath: m_Name
+      value: Keycard ID2 Variant (1) Variant (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 6870688286128033244, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.587
@@ -6121,10 +6125,6 @@ PrefabInstance:
     - target: {fileID: 6870688286128033244, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057981640530532198, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
-      propertyPath: m_Name
-      value: Keycard ID2 Variant (1) Variant (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10717,7 +10717,7 @@ Transform:
   m_GameObject: {fileID: 869642049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.41, y: 0, z: 0}
+  m_LocalPosition: {x: -1.83, y: 0, z: -0.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17722,6 +17722,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1931998209}
     m_Modifications:
+    - target: {fileID: 6057981640530532198, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
+      propertyPath: m_Name
+      value: Keycard ID2 Variant (1) Variant (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 6870688286128033244, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.091
@@ -17761,10 +17765,6 @@ PrefabInstance:
     - target: {fileID: 6870688286128033244, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057981640530532198, guid: af669c3feb5fbad4da01d352dc538bfe, type: 3}
-      propertyPath: m_Name
-      value: Keycard ID2 Variant (1) Variant (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
