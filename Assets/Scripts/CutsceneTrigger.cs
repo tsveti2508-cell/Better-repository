@@ -13,9 +13,16 @@ public GameObject[] hideDuringCutscene; // Left Hand, Right Hand
     public string cutsceneLayer = "Cutscene";
 
     bool played;
-
+void Start()
+{
+    videoPlayer.Prepare();
+}
     void OnTriggerEnter(Collider other)
-    {
+    { 
+    Debug.Log("Trigger touched by: " + other.name + " tag: " + other.tag);
+
+    if (played || !other.transform.root.CompareTag("Player")) return;
+    played = true;
         if (played || !other.CompareTag("Player")) return;
         played = true;
 
