@@ -18,6 +18,12 @@ public class KeycardPanel : MonoBehaviour
     public Color idleColor = Color.red;
     public Color successColor = Color.green;
 
+    [SerializeField] AudioSource Accepted;
+    [SerializeField] AudioSource NotAccepted;
+
+    [SerializeField] AudioSource Dooropening;
+
+
     [Header("Events")]
     public UnityEvent onCorrectCardInserted;
     public UnityEvent onWrongCardInserted;
@@ -57,7 +63,11 @@ public class KeycardPanel : MonoBehaviour
         {
             Debug.Log($"Wrong keycard: {card.keycardID}. Panel requires {requiredKeycardID}.");
             onWrongCardInserted?.Invoke();
+
+            NotAccepted.Play();
         }
+
+        Accepted.Play();
     }
 
     private void Unlock()
@@ -69,5 +79,7 @@ public class KeycardPanel : MonoBehaviour
 
         Debug.Log("Correct keycard detected. Unlocking.");
         onCorrectCardInserted?.Invoke();
+
+        Dooropening.Play();
     }
 }
