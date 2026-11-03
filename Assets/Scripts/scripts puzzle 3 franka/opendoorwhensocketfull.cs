@@ -1,5 +1,5 @@
-
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 public class PuzzleDoor : MonoBehaviour
@@ -14,20 +14,36 @@ public class PuzzleDoor : MonoBehaviour
 
     public GameObject door;
 
-    void Update()
+    public UnityEvent onSolved = new UnityEvent();
+
+    private bool solved;
+
+    private void Update()
     {
-        bool correct1 = socket1.hasSelection &&
-            socket1.firstInteractableSelected.transform.gameObject == correctBall1;
+        if (solved) return;
 
-        bool correct2 = socket2.hasSelection &&
-            socket2.firstInteractableSelected.transform.gameObject == correctBall2;
-
-        bool correct3 = socket3.hasSelection &&
-            socket3.firstInteractableSelected.transform.gameObject == correctBall3;
+        bool correct1 = IsCorrect(socket1, correctBall1);
+        bool correct2 = IsCorrect(socket2, correctBall2);
+        bool correct3 = IsCorrect(socket3, correctBall3);
 
         if (correct1 && correct2 && correct3)
         {
-            door.SetActive(false);
+            solved = true;
+
+            if (door != null)
+        
+
+            onSolved.Invoke();
         }
+    }
+
+    private bool IsCorrect(
+        XRSocketInteractor socket, GameObject correctObject)
+    {
+        return socket != null &&
+               correctObject != null &&
+               socket.hasSelection &&
+               socket.firstInteractableSelected.transform.gameObject
+                   == correctObject;
     }
 }
